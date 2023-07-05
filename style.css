@@ -59,7 +59,6 @@ scroll-page p{
     font-size: 2.0rem !important;
 }
 scroll-page:target{
-    /* margin-top: 290px; */
     scroll-behavior: smooth;
     scroll-margin-top: 100px;
 }
@@ -135,7 +134,6 @@ p{
 }
 .card-text{
     font-size: 1.8rem;
-    font-weight: 500;
 }
 h5{
     font-weight: 700;
@@ -196,7 +194,7 @@ h5{
 }
 .arrow-left,
 .arrow-right{
-    position: relative;
+    position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
@@ -219,7 +217,7 @@ h5{
     flex-shrink: 0;
 }
 .card{
-    display: inline-block;
+    display: inline-block !important;
 }
 
 /* empresas */
@@ -592,13 +590,6 @@ footer p{
         margin: auto;
         width: 100% !important;
     }
-    .card-ferramenta{
-        /* display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(auto, 1fr)); */
-    }
-    .ferramentas.col-4{
-        /* width: 100% !important; */
-    }
 
     /* empresas */
     .empresas .col-4{
@@ -610,6 +601,7 @@ footer p{
         width: 300px !important;
     }
 }
+
 @media (max-width:447px){
     .myCard{
         max-width: 350px !important;
@@ -690,6 +682,7 @@ footer p{
         font-size: 1.9rem;
     }
 }
+
 @media (max-width: 378px) {
     .myCard{
         padding: 5px 18px 10px 18px;
