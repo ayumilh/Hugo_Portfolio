@@ -39,7 +39,7 @@ a.navbar-brand{
     margin-left: 50px !important;
 }
 .nav-link{
-    font-size: 1.7rem;
+    font-size: 1.9rem;
     margin-right: 18px !important;
 }
 
@@ -134,7 +134,8 @@ p{
     font-size: 2.0rem;
 }
 .card-text{
-    font-size: 1.8rem ;
+    font-size: 1.8rem;
+    font-weight: 500;
 }
 h5{
     font-weight: 700;
@@ -163,6 +164,7 @@ h5{
 .btn-ferramentas-gradient{
     background: linear-gradient(266.05deg, #3195FF 0%, #F600DD 100%);
 }
+.btn
 
 /* projetos */
 .slider {
@@ -194,7 +196,7 @@ h5{
 }
 .arrow-left,
 .arrow-right{
-    position: absolute;
+    position: relative;
     top: 0;
     bottom: 0;
     left: 0;
@@ -530,6 +532,13 @@ footer p{
         width: 100%;
         max-width: 575.98px !important;
     }
+    .navbar-brand img{
+        width: 120px;
+        height: 50px;
+    }
+    .nav-link{
+        font-size: 2rem !important;
+    }
 
     scroll-container{
         position: relative;
@@ -573,7 +582,8 @@ footer p{
     }
     .myCard{
         padding: 5px 10px 5px 10px;
-        width: 420px !important;
+        width: 100%;
+        max-width: 420px !important;
         height: 250px;
     }
 
@@ -598,6 +608,11 @@ footer p{
     /* experiencia */
     .experiencia img{
         width: 300px !important;
+    }
+}
+@media (max-width:447px){
+    .myCard{
+        max-width: 350px !important;
     }
 }
 
@@ -651,13 +666,17 @@ footer p{
     }
     .myCard{
         padding: 5px 8px 10px 8px;
-        width: 350px !important;
+        width: 300px !important;
         height: 220px;
     }
 
     /* empresas */
     .empresas .col-4{
         width: 100% !important;
+    }
+    .empresas img{
+        width: 100%;
+        max-width: 250px !important;
     }
 
     /* experiencia */
@@ -671,4 +690,62 @@ footer p{
         font-size: 1.9rem;
     }
 }
+@media (max-width: 378px) {
+    .myCard{
+        padding: 5px 18px 10px 18px;
+        width: 280px !important;
+        height: 200px;
+    }
+    .empresas img{
+        width: 100%;
+        max-width: 250px !important;
+    }
+}
+@media (max-width: 378px) {
+    .empresas img{
+        max-width: 220px !important;
+    }
+}
 
+@media (max-width: 320px) {
+    main{
+        width: 100%;
+        max-width: 320px;
+        position: relative;
+    }
+    scroll-container{
+        padding: 0px 20px;
+    }
+
+    /* processo */
+    .card-title{
+        font-size: 1.8rem;
+    }
+    .card-text{
+        font-size: 1.7rem;
+    }
+    .myCard .img-fluid{
+        max-width: 28% !important;
+    }
+    .myCard{
+        padding: 5px 18px 10px 18px;
+        width: 270px !important;
+        height: 200px;
+    }
+
+    /* empresas */
+    .empresas img{
+        max-width: 200px !important;
+    }
+    
+
+    /* experiencia */
+    .div-experiencia > p{
+        font-size: 2.1rem !important;
+        font-weight: 500 !important;
+        line-height: 1.5;
+    }
+    .experiencia .div-p{
+        font-size: 2rem;
+    }
+}
