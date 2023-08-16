@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link dropdown-toggle href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="carrossel.css">
   <title>Document</title>
 </head>
@@ -158,57 +159,48 @@
           <div class="mt-lg-5 projetos">
             <scroll-page id="page-projetos"><h3 class="text-white">Meus projetos</h3></scroll-page>
             <p class="text-white-50 div-p">Projetos profissionais</p> 
-            <!-- <div class="slider">
-              
-              <div class="slider_container mt-5">
-                <button class="arrow-left control"><img src="img/arrow-left.svg" alt="" class="icon-arrow"></button>
-                <button class="arrow-right control"><img src="img/arrow-right.svg" alt="" class="icon-arrow"></button>
-                <div class="gallery-wrapper">
-                  <div class="gallery">
-                    <img src="img/Projeto-Bikcraft.png" alt="Projeto Bikcraft" class="item current-item">
-                    <img src="img/Projeto-Aleku.png" alt="Projeto Aleku" class="item">
-                    <img src="img/Projeto-Crypto.png" alt="Projeto Crypto" class="item">
-                    <img src="img/Projeto-Hbaw.png" alt="projeto Hbaw" class="item">
-                  </div>
-                </div>
-              </div>
-            </div> -->
+
             <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              </div>
               <div class="carousel-inner">
+
                 <div class="carousel-item active">
-                  <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-          
+                  <img src="img/Projeto-Bikcraft.png" class="bd-placeholder-img" focusable="false" alt="projeto bikcraft">
                   <div class="container">
                     <div class="carousel-caption text-start">
-                      <h1>Example headline.</h1>
-                      <p>Some representative placeholder content for the first slide of the carousel.</p>
-                      <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+                      <button class="btn btn-primary p-2 btn-projeto">Pronto para desenvolvimento</button>
+                      <p><a class="text-decoration-none text-white" href="#">Visualizar o projeto <img src="img/arrow-visualizar.svg" alt=""></a></p>
                     </div>
                   </div>
                 </div>
+
                 <div class="carousel-item">
-                  <img src="img/Projeto - Bikcraft.svg" class="bd-placeholder-img" focusable="false" alt="">
+                  <img src="img/Projeto-Aleku.png" class="bd-placeholder-img" focusable="false" alt="">
                   
                   <div class="container">
                     <div class="carousel-caption text-start">
-                      <!-- <h1>Another example headline.</h1> -->
-                      <p><a class="text-decoration-none" href="#">Visualizar projeto <img src="img/arrow-left.svg" alt="" class="icon-arrow"></a></p>
+                      <button class="btn btn-primary p-2 btn-projeto">Pronto para desenvolvimento</button>
+                      <p><a class="text-decoration-none text-white" href="#">Visualizar projeto <img src="img/arrow-visualizar.svg" alt="" class="icon-arrow"></a></p>
                     </div>
                   </div>
                 </div>
+
                 <div class="carousel-item">
-                  <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-          
+                  <img src="img/Projeto-Crypto.png" class="bd-placeholder-img" focusable="false" alt="projeto bikcraft">
                   <div class="container">
-                    <div class="carousel-caption text-end">
-                      <h1>One more for good measure.</h1>
-                      <p>Some representative placeholder content for the third slide of this carousel.</p>
-                      <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                    <div class="carousel-caption text-start">
+                      <button class="btn btn-primary p-2 btn-projeto">Pronto para desenvolvimento</button>
+                      <p><a class="text-decoration-none text-white" href="#">Visualizar o projeto <img src="img/arrow-visualizar.svg" alt=""></a></p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <img src="img/Projeto-Hbaw.png" class="bd-placeholder-img" focusable="false" alt="">
+                  
+                  <div class="container">
+                    <div class="carousel-caption text-start">
+                      <button class="btn btn-primary p-2 btn-projeto">Pronto para desenvolvimento</button>
+                      <p><a class="text-decoration-none text-white" href="#">Visualizar projeto <img src="img/arrow-visualizar.svg" alt="" class="icon-arrow"></a></p>
                     </div>
                   </div>
                 </div>
@@ -251,12 +243,12 @@
               <div class="row gx-5">
                 <div class="col-5 div-experiencia text-start">
                   <h4 class="text-white fw-bold mb-5">Mestres da web<span style="color: #25FBB6;">_</span></h4>
-                  <p class="mt-lg-5">Atuar nos projetos da Mestres foi um grande desafio.</p>
-                  <p>Oportunidade temporária enriquecedora, onde desenvolvi e aperfeiçoei muitas habilidades e soft skills.</p>
+                  <p class="mt-lg-5 text-white-50">Atuar nos projetos da Mestres foi um grande desafio.</p>
+                  <p class="text-white-50">Oportunidade temporária enriquecedora, onde desenvolvi e aperfeiçoei muitas habilidades e soft skills.</p>
    
-                  <p>Foram 5 meses que atuei em inúmeros projetos, reuniões de alinhamento e definições de escopo, onde pude crescer com uma excelente equipe.</p>
+                  <p class="text-white-50">Foram 5 meses que atuei em inúmeros projetos, reuniões de alinhamento e definições de escopo, onde pude crescer com uma excelente equipe.</p>
     
-                  <p>Fazer parte desse time com certeza agregou para que eu me torna-se um grande UX/UI.</p>
+                  <p class="text-white-50">Fazer parte desse time com certeza agregou para que eu me torna-se um grande UX/UI.</p>
 
                   <button class="btn btn-primary btn-experiencia">Site da empresa</button>
                 </div>
@@ -275,67 +267,6 @@
       </div>
     </div>
   </main>
-  <section class="carousel" aria-label="Gallery">
-    <ol class="carousel__viewport">
-      <li id="carousel__slide1"
-          tabindex="0"
-          class="carousel__slide">
-        <div class="carousel__snapper">
-          <a href="#carousel__slide4"
-             class="carousel__prev">Go to last slide</a>
-          <a href="#carousel__slide2"
-             class="carousel__next">Go to next slide</a>
-        </div>
-      </li>
-      <li id="carousel__slide2"
-          tabindex="0"
-          class="carousel__slide">
-        <div class="carousel__snapper"></div>
-        <a href="#carousel__slide1"
-           class="carousel__prev">Go to previous slide</a>
-        <a href="#carousel__slide3"
-           class="carousel__next">Go to next slide</a>
-      </li>
-      <li id="carousel__slide3"
-          tabindex="0"
-          class="carousel__slide">
-        <div class="carousel__snapper"></div>
-        <a href="#carousel__slide2"
-           class="carousel__prev">Go to previous slide</a>
-        <a href="#carousel__slide4"
-           class="carousel__next">Go to next slide</a>
-      </li>
-      <li id="carousel__slide4"
-          tabindex="0"
-          class="carousel__slide">
-        <div class="carousel__snapper"></div>
-        <a href="#carousel__slide3"
-           class="carousel__prev">Go to previous slide</a>
-        <a href="#carousel__slide1"
-           class="carousel__next">Go to first slide</a>
-      </li>
-    </ol>
-    <aside class="carousel__navigation">
-      <ol class="carousel__navigation-list">
-        <li class="carousel__navigation-item">
-          <a href="#carousel__slide1"
-             class="carousel__navigation-button">Go to slide 1</a>
-        </li>
-        <li class="carousel__navigation-item">
-          <a href="#carousel__slide2"
-             class="carousel__navigation-button">Go to slide 2</a>
-        </li>
-        <li class="carousel__navigation-item">
-          <a href="#carousel__slide3"
-             class="carousel__navigation-button">Go to slide 3</a>
-        </li>
-        <li class="carousel__navigation-item">
-          <a href="#carousel__slide4"
-             class="carousel__navigation-button">Go to slide 4</a>
-        </li>
-      </ol>
-    </aside>
-  </section>
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
